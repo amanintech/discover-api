@@ -31,7 +31,7 @@ services:
     volumes:
       - redis:/data
     ports:
-      - "6379:6379"
+      - "6388:6388"
 
   debezium:
     image: debezium/server:1.6
